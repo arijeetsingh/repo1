@@ -50,12 +50,13 @@
           <div class="py-1">
             <div class="row align-items-center">
               <div class="col-2">
-                <h2 class="mb-0 site-logo"><a href="{% url 'blog-home'  %}">SkartEvent</a></h2>
+                <!--<img src="{% static 'images/logo.png' %}" alt=""style="width: 250px;">-->
+                <!--<img src="{% static 'images/logo.png' %}" alt=""style="width: 100%; height: auto;">-->
+               <h2 class="mb-0 site-logo"><a href="{% url 'blog-home'  %}">SkartEvent</a></h2>
+
               </div>
               <div class="col-10">
                 <nav class="site-navigation text-right" role="navigation">
-                  <div class="container">
-                    
                     <div class="d-inline-block d-lg-none  ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu h3"></span></a></div>
                     <ul class="site-menu js-clone-nav d-none d-lg-block">
                       <li><a href="{% url 'blog-home'%}">Home</a></li>
@@ -103,7 +104,8 @@
           </div>
           <div class="col-md-8 text-right">
                 <a href="#" class="call text-right">Contact Us<br><i class="icon-phone"></i>   +91 9517439097</a><br>
-                <a href="#">Book an Event</a>
+                <a href="#">Book an Event</a><br>
+                <a href="#">Register your Venue</a>
           </div>
         </div>
         <div class="row pt-5 mt-5 text-center">
